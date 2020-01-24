@@ -221,8 +221,10 @@ footer {
 */
 
 #jigsaw {
+  height: 84vh;
   margin: auto;
   display: block;
+
 }
 
 

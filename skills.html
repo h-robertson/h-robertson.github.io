@@ -40,9 +40,8 @@
   </header>
 
   <!-- Main page -->
-  <div class="main">
-    <svg width="100%" height="100%" viewBox="0 0 4678 3308" version="1.1" xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+  <div class="skills-grid">
+    <svg class="jigsaw" viewBox="0 0 4678 3308"
       style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
       <g transform="matrix(1.33333,0,0,1.33333,0,0)">
         <g transform="matrix(1,0,0,1,10.4038,-35.0231)">
@@ -199,32 +198,36 @@
         </g>
       </g>
     </svg>
-    <script>
-      var tools = d3.selectAll('.tool')
-
-      tools
-        .on('mouseover', function (d, i) {
-          d3.select(this)
-            .style('fill', '#3B8185');
-        })
-        .on("mouseout", function (d) {
-          d3.select(this)
-            .style("fill", "#095559");
-        });
-
-      var skills = d3.selectAll('.skill')
-
-      skills
-        .on('mouseover', function (d, i) {
-          d3.select(this)
-            .style('fill', '#9B3D58');
-        })
-        .on("mouseout", function (d) {
-          d3.select(this)
-            .style("fill", "#800D2E");
-        });
-    </script>
+    <div class="jigsaw-view">
+      <p>Test test goes here</p>
+    </div>
   </div>
+  <script>
+    var tools = d3.selectAll('.tool')
+
+    tools
+      .on('mouseover', function (d, i) {
+        d3.select(this)
+          .style('fill', '#3B8185');
+      })
+      .on("mouseout", function (d) {
+        d3.select(this)
+          .style("fill", "#095559");
+      });
+
+    var skills = d3.selectAll('.skill')
+
+    skills
+      .on('mouseover', function (d, i) {
+        d3.select(this)
+          .style('fill', '#9B3D58');
+      })
+      .on("mouseout", function (d) {
+        d3.select(this)
+          .style("fill", "#800D2E");
+      });
+  </script>
+
 
   <!-- FOOTER -->
   <footer>

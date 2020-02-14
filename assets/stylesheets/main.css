@@ -29,7 +29,8 @@ ul {
 body {
   background: #EBEBEB;
   color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
 }
 
 /*
@@ -46,11 +47,6 @@ body {
   box-sizing: border-box;
 }
 
-.work-ft {
-  margin: 0 auto;
-  width: 960px;
-}
-
 
 /*
   ========================================
@@ -62,7 +58,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #9fb5b0;
+  color: #888;
   padding: 10px;
   margin: 10px;
 }
@@ -117,12 +113,12 @@ em {
 */
 
 a {
-  color: #9fb5b0;
+  color: #a9b2b9;
   text-decoration: none;
 }
 
 a:hover {
-  color: #a9b2b9;
+  color: #888;
 }
 
 p a {
@@ -136,7 +132,7 @@ p a {
 */
 
 header {
-  height: 70px;
+  height: 13vh;
   margin: 0;
   padding: 0;
   background: #042426;
@@ -149,7 +145,7 @@ footer {
 
 
 .primary-nav {
-  font-size: 14px;
+  font-size: 1.2em;
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
@@ -167,8 +163,14 @@ footer {
 }
 
 .nav li {
-  margin: 0 10px;
-  display: inline;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 5px
+}
+
+.nav li:hover {
+  background-color: #7c0d2f;
 }
 
 .nav li:last-child {
@@ -220,11 +222,21 @@ footer {
   =================================
 */
 
-#jigsaw {
-  height: 84vh;
-  margin: auto;
+.skills-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: auto;
+}
+
+.jigsaw {
+  grid-column: 1/2;
+  height: 90vh;
   display: block;
 
+}
+
+.jigsaw-view {
+  grid-column: 2/3;
 }
 
 
@@ -326,6 +338,11 @@ date {
   ==================
 */
 
+.work-ft {
+  margin: 0 auto;
+  width: 960px;
+}
+
 .work-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -378,26 +395,3 @@ date {
 #und2 {
   grid-area: 4/2/5/3;
 }
-
-
-
-
-
-
-
-/*.und-links,
-.ft-links {
-  padding: 22px 0;
-  text-align: left;
-}
-
-
-.und-links img {
-  height: 190px;
-  margin: 22px 0 22px 0;
-}
-
-.ft-links img {
-  height: 250px;
-  margin: 22px 0 22px 0;
-}*/

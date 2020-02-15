@@ -228,7 +228,6 @@ td {
 }
 
 th {
-  padding-right: 45px;
   text-align: right;
   width: 20%;
 }
@@ -262,8 +261,7 @@ tbody td {
 
 tbody td:first-of-type {
   padding-right: 15px;
-  position: relative;
-  left: 27px;
+
 }
 
 tbody td:last-of-type {
@@ -271,10 +269,6 @@ tbody td:last-of-type {
   border-left: 1px solid #a9b2b9;
 }
 
-tbody td:only-of-type {
-  padding-left: 0;
-  padding-right: 0;
-}
 
 table a {
   color: #888;

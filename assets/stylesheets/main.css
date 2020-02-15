@@ -236,7 +236,6 @@ td {
 }
 
 th {
-  text-align: right;
   width: 20%;
 }
 
@@ -250,6 +249,17 @@ td p {
   margin: 0;
 }
 
+@media (max-width: 576px) {
+  .dot {
+    display: none;
+    padding: 0;
+  }
+
+  th {
+    padding-right: 4vw;
+  }
+
+}
 
 tbody th {
   color: #a9b2b9;

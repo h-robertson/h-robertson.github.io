@@ -33,8 +33,7 @@ ul {
 body {
   background: #EBEBEB;
   color: #888;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
 }
 
 /*
@@ -177,7 +176,9 @@ footer .nav-link:hover {
   line-height: 28px;
 }
 
-
+.container {
+  font-size: 1em;
+}
 
 
 /*
@@ -244,9 +245,6 @@ td p {
   margin: 0;
 }
 
-td p {
-  font-size: 0.8em;
-}
 
 
 tbody th {
@@ -278,10 +276,11 @@ table a {
 
 table h4 {
   margin-bottom: 0;
+  font-size: 1.2em;
 }
 
 .current {
-  font-weight: bold;
+  font-weight: 600;
   color: #7c0d2f;
 }
 

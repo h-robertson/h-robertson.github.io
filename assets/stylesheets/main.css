@@ -16,6 +16,7 @@ body {
 }
 
 
+
 ul {
   list-style: none;
 }
@@ -128,6 +129,7 @@ p a {
 footer {
   height: 6vh;
   background: #042c2e;
+
 }
 
 footer .nav-link {

@@ -294,6 +294,60 @@ date {
   ==================
 */
 
+.work-item {
+  position: relative;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+
+.work-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.work-item:hover .work-img {
+  opacity: 0.3;
+}
+
+.work-item:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  background-color: #7c0d2f;
+  color: white;
+  font-size: 0.7em;
+  padding: 5px 5px;
+}
+
+.text a {
+  color: #dfe2e5
+}
+
+.text a:hover {
+  text-decoration: none;
+  color: #a9b2b9
+}
+
+
+
+/* 
 .work-ft {
   margin: 0 auto;
   width: 960px;
@@ -350,4 +404,4 @@ date {
 
 #und2 {
   grid-area: 4/2/5/3;
-}
+} */

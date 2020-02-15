@@ -16,7 +16,6 @@ body {
 }
 
 
-
 ul {
   list-style: none;
 }
@@ -126,10 +125,14 @@ p a {
 */
 
 footer {
-  height: 6vh;
+  height: 40px;
   background: #042c2e;
-
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
 
 footer .nav-link {
   color: rgba(255, 255, 255, .5)

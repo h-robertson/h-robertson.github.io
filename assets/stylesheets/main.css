@@ -35,6 +35,16 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
 }
 
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
 /*
   ========================================
   Grid
@@ -127,10 +137,6 @@ p a {
 footer {
   height: 40px;
   background: #042c2e;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
 
 
@@ -171,7 +177,6 @@ footer .nav-link:hover {
 */
 
 .container-fluid {
-  height: 80vh;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 20px;
@@ -180,7 +185,6 @@ footer .nav-link:hover {
 }
 
 .container {
-  height: 80vh;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 20px;
@@ -250,8 +254,8 @@ footer .nav-link:hover {
 }
 
 table {
-  margin-bottom: 44px;
-  width: 100%;
+  margin: auto;
+  width: 80%;
 }
 
 table:last-child {
@@ -378,7 +382,7 @@ date {
 .text {
   background-color: #7c0d2f;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.6em;
   padding: 5px 5px;
 }
 

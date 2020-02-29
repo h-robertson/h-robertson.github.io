@@ -188,6 +188,14 @@ footer .nav-link:hover {
   line-height: 28px;
 }
 
+.aboutme-text {
+  margin: 6vh 25vh;
+  font-size: 0.9em;
+}
+
+.aboutme-text>p {
+  margin-bottom: 0;
+}
 
 /*
   =================================

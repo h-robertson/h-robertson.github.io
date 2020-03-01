@@ -264,6 +264,10 @@ footer .nav-link:hover {
     color: #888
   }
 
+  .output-div ul {
+    padding-left: 10vw;
+  }
+
 }
 
 @media (min-width: 576px) {

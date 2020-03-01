@@ -211,6 +211,7 @@ footer .nav-link:hover {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: auto;
+  background-color: rgb(235, 235, 235);
 }
 
 .jigsaw {
@@ -223,6 +224,18 @@ footer .nav-link:hover {
   grid-column: 2/3;
 }
 
+.output-div {
+  display: none;
+  background-color: #f5f5f5;
+  margin: 3vh;
+  border-radius: 0.4em;
+}
+
+.output-div ul {
+  list-style-type: disc;
+  padding-left: 3vw;
+}
+
 @media (max-width: 576px) {
   .jigsaw {
     display: none;
@@ -230,6 +243,13 @@ footer .nav-link:hover {
 
   .jigsaw-mobile {
     display: block
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: auto;
+    background-color: rgb(235, 235, 235);
   }
 
 }
@@ -240,8 +260,6 @@ footer .nav-link:hover {
   }
 
 }
-
-
 
 /*
   ==================
@@ -255,7 +273,7 @@ footer .nav-link:hover {
 
 table {
   margin: auto;
-  width: 80%;
+  width: 100%;
 }
 
 table:last-child {
@@ -282,11 +300,14 @@ td p {
   margin: 0;
 }
 
+
+
 @media (max-width: 576px) {
   .dot {
     display: none;
     padding: 0;
   }
+
 
   th {
     padding-right: 4vw;

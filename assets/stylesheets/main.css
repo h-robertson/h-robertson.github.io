@@ -203,10 +203,8 @@ footer .nav-link:hover {
 
 @media (max-width: 576px) {
   .aboutme-text {
-    margin: auto
+    margin: auto;
   }
-
-
 }
 
 /*
@@ -258,6 +256,12 @@ footer .nav-link:hover {
     grid-template-columns: 1fr;
     padding: auto;
     background-color: rgb(235, 235, 235);
+  }
+
+  #clickmore {
+    margin-top: 2vh;
+    margin-bottom: 0;
+    color: #888
   }
 
 }

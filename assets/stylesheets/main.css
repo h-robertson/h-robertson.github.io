@@ -193,7 +193,7 @@ footer .nav-link:hover {
 }
 
 .aboutme-text {
-  margin: 6vh 25vh;
+  margin: auto;
   font-size: 0.9em;
 }
 
@@ -201,9 +201,19 @@ footer .nav-link:hover {
   margin-bottom: 0;
 }
 
-@media (max-width: 1024px) {
+.card {
+  margin-top: 2vh;
+}
+
+@media (min-width: 960px) and (max-width: 1150px) {
   .aboutme-text {
-    margin: auto;
+    margin: 6vh 10vh;
+  }
+}
+
+@media (min-width: 1150px) {
+  .aboutme-text {
+    margin: 6vh 15vh;
   }
 }
 

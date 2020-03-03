@@ -201,7 +201,7 @@ footer .nav-link:hover {
   margin-bottom: 0;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .aboutme-text {
     margin: auto;
   }
@@ -242,7 +242,11 @@ footer .nav-link:hover {
   padding-left: 3vw;
 }
 
-@media (max-width: 576px) {
+#clickmore {
+  display: none;
+}
+
+@media (max-width: 720px) {
   .jigsaw {
     display: none;
   }
@@ -259,6 +263,7 @@ footer .nav-link:hover {
   }
 
   #clickmore {
+    display: block;
     margin-top: 2vh;
     margin-bottom: 0;
     color: #888
@@ -270,7 +275,7 @@ footer .nav-link:hover {
 
 }
 
-@media (min-width: 576px) {
+@media (min-width: 720px) {
   .jigsaw-mobile {
     display: none;
   }

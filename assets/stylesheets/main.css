@@ -246,7 +246,12 @@ footer .nav-link:hover {
   display: none;
 }
 
-@media (max-width: 720px) {
+.img-fluid {
+  width: 100% \9;
+  max-width: 120%;
+}
+
+@media (max-width: 960px) {
   .jigsaw {
     display: none;
   }
@@ -275,7 +280,7 @@ footer .nav-link:hover {
 
 }
 
-@media (min-width: 720px) {
+@media (min-width: 960px) {
   .jigsaw-mobile {
     display: none;
   }
